@@ -396,7 +396,7 @@ footer {
 .footer-bottom-main {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
 
 }
@@ -469,7 +469,7 @@ footer {
 
 .link-social {
     margin: .5rem;
-    width: 10%;
+    width: 2rem;
     border: 1px solid var(--LightGrayishBlue);
     padding: .5rem;
     border-radius: 50%;
@@ -649,6 +649,6 @@ footer {
     }
 
     .link-social {
-        width: 15%;
+        width: 2rem;
     }
 }
